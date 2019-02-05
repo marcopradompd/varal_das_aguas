@@ -1,0 +1,333 @@
+body {
+  background: #faefde;
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #303030; }
+
+html {
+  scroll-behavior: smooth; }
+
+textarea .form-control {
+  height: 200px !important; }
+
+body {
+  background: #faefde;
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #303030; }
+
+html {
+  scroll-behavior: smooth; }
+
+.container h2 {
+  text-transform: uppercase;
+  color: #1b546f; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px; }
+
+@font-face {
+  font-family: "latoregular";
+  src: url("./fontes/merienda/lato-regular-webfont.woff2") format("woff2"), url("./fontes/merienda/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "meriendabold";
+  src: url("./fontes/merienda/merienda-bold-webfont.woff2") format("woff2"), url("./fontes/merienda/merienda-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.jumbotron {
+  background: url("./img/nature-water.jpg") center no-repeat;
+  color: #797878;
+  padding: 112px 25px 385px 25px;
+  margin: 0;
+  font-family: Montserrat, sans-serif; }
+  .jumbotron h1 {
+    font-family: "meriendabold"; }
+    .jumbotron h1 img {
+      margin: auto; }
+  .jumbotron h2 {
+    font-size: 25px; }
+
+.containerBoxInfo {
+  min-height: auto; }
+
+.boxInfo {
+  background: #1b546f;
+  margin-top: -135px;
+  padding: 65px; }
+  .boxInfo h4 {
+    color: #2e8ebc;
+    margin-bottom: 5px; }
+  .boxInfo p {
+    color: #fffefe; }
+
+.btnInscricao {
+  background: #1b546f;
+  border: 0px;
+  color: #fff;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 2rem;
+  padding: 15px 25px;
+  border-radius: 0px; }
+
+#Concurso {
+  margin-top: -92px;
+  padding: 75px 75px 0px 75px; }
+  #Concurso hr {
+    margin-top: 75px; }
+
+#Sobre {
+  padding: 75px 75px 75px 75px; }
+
+#Regras {
+  padding: 75px 75px 75px 75px; }
+  #Regras ul {
+    padding: 15px; }
+    #Regras ul li {
+      padding: 5px; }
+
+footer {
+  border-top: solid 10px #1b546f;
+  background: #fff;
+  margin-top: 60px;
+  padding: 20px; }
+  footer img {
+    width: 150px; }
+
+.modal-title {
+  float: left; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-grey {
+  background-color: #f6f6f6; }
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #1b546f;
+  z-index: 200;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif; }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #1b546f !important;
+  background-color: #fff !important; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important; }
+
+@media screen and (max-width: 992px) {
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 22px 0px 22px; } }
+@media screen and (max-width: 768px) {
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 22px 0px 22px; }
+
+  .boxInfo {
+    position: none;
+    margin: 0; }
+
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0; }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px; } }
+@media screen and (max-width: 480px) {
+  .boxInfo {
+    position: none;
+    margin: 0; }
+
+  .jumbotron {
+    background-position: center center;
+    padding: 50px 25px 150px 25px; }
+    .jumbotron h2 {
+      font-size: 15px; }
+
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 20px 0px 20px; }
+    #Concurso hr {
+      margin-top: 75px; }
+
+  #Sobre, #Regras {
+    padding: 75px 20px 75px 20px; } }
+.container h2 {
+  text-transform: uppercase;
+  color: #1b546f; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px; }
+
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px; }
+
+@font-face {
+  font-family: "latoregular";
+  src: url("./fontes/merienda/lato-regular-webfont.woff2") format("woff2"), url("./fontes/merienda/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "meriendabold";
+  src: url("./fontes/merienda/merienda-bold-webfont.woff2") format("woff2"), url("./fontes/merienda/merienda-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.jumbotron {
+  background: url("./img/nature-water.jpg") center no-repeat;
+  color: #797878;
+  padding: 112px 25px 385px 25px;
+  margin: 0;
+  font-family: Montserrat, sans-serif; }
+  .jumbotron h1 {
+    font-family: "meriendabold"; }
+    .jumbotron h1 img {
+      margin: auto; }
+  .jumbotron h2 {
+    font-size: 25px; }
+
+.containerBoxInfo {
+  min-height: auto; }
+
+.boxInfo {
+  background: #1b546f;
+  margin-top: -135px;
+  padding: 65px; }
+  .boxInfo h4 {
+    color: #2e8ebc;
+    margin-bottom: 5px; }
+  .boxInfo p {
+    color: #fffefe; }
+
+.btnInscricao {
+  background: #1b546f;
+  border: 0px;
+  color: #fff;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 2rem;
+  padding: 15px 25px;
+  border-radius: 0px; }
+
+#Concurso {
+  margin-top: -92px;
+  padding: 75px 75px 0px 75px; }
+  #Concurso hr {
+    margin-top: 75px; }
+
+#Sobre {
+  padding: 75px 75px 75px 75px; }
+
+#Regras {
+  padding: 75px 75px 75px 75px; }
+  #Regras ul {
+    padding: 15px; }
+    #Regras ul li {
+      padding: 5px; }
+
+footer {
+  border-top: solid 10px #1b546f;
+  background: #fff;
+  margin-top: 60px;
+  padding: 20px; }
+  footer img {
+    width: 150px; }
+
+.modal-title {
+  float: left; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-grey {
+  background-color: #f6f6f6; }
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #1b546f;
+  z-index: 200;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif; }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #1b546f !important;
+  background-color: #fff !important; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important; }
+
+@media screen and (max-width: 992px) {
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 22px 0px 22px; } }
+@media screen and (max-width: 768px) {
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 22px 0px 22px; }
+
+  .boxInfo {
+    position: none;
+    margin: 0; }
+
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0; }
+
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px; } }
+@media screen and (max-width: 480px) {
+  .boxInfo {
+    position: none;
+    margin: 0; }
+
+  .jumbotron {
+    background-position: center center;
+    padding: 50px 25px 150px 25px; }
+    .jumbotron h2 {
+      font-size: 15px; }
+
+  #Concurso {
+    margin-top: -92px;
+    padding: 75px 20px 0px 20px; }
+    #Concurso hr {
+      margin-top: 75px; }
+
+  #Sobre, #Regras {
+    padding: 75px 20px 75px 20px; } }
+
+/*# sourceMappingURL=estilo.css.map */
