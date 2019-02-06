@@ -16,30 +16,33 @@ const Rodape = props =>{
                             </button>
                         </div>
                         <div className='modal-body row'>
-                            <form id='upFoto'> 
-                                <div className='form-group col-lg-6'>
-                                    <label htmlFor='nome' className='col-form-label'>Nome do colaborador:</label>
-                                    <input type='text' className='form-control' id='nome' />
-
-                                    <label htmlFor='recipient-name' className='col-form-label'>Local da foto:</label>
-                                    <input type='text' className='form-control' id='Local' />
+                            <form id="upFotos" action="#" method="post">
+                                <div class="form-group col-lg-6">
+                                    <label htmlFor="name">Name</label>
+                                    <input className="form-control" type="text" name="name" id="name" />
                                 </div>
-                                <div className='form-group col-lg-6'>
-                                    <label htmlFor='nomeFoto' className='col-form-label'>Nome da foto:</label>
-                                    <input type='text' className='form-control' id='nomeFoto' />
-
-                                    <label htmlFor='dataFoto' className='col-form-label'>Data de registro:</label>
-                                    <input type='date' className='form-control' id='dataFoto' />
+                                <div class="form-group col-lg-6">
+                                    <label for="nameFoto">NameFoto</label>
+                                    <input className="form-control" type="text" name="nameFoto" id="nameFoto" />
                                 </div>
-                                
+                                <div class="form-group col-lg-6">
+                                    <label htmlFor="LocalFoto">LocalFoto</label>
+                                    <input className="form-control" type="text" name="LocalFoto" id="localFoto" />
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label htmlFor="dataFoto">LocalFoto</label>
+                                    <input className="form-control" type="date" name="dataFoto" id="dataFoto" />
+                                </div>
+
                                 <div className="form-group col-lg-12">
                                     <label htmlFor="exampleFormControlFile1">Anexar Foto</label>
-                                    <input type="file" className="form-control-file" id="uploadFoto" />
+                                    <input type="file" className="form-control-file" name="uploadFoto" id="uploadFoto" />
                                 </div>
 
                                 <div className="form-group col-lg-12">
                                     <label htmlFor="exampleFormControlTextarea1">Termos</label>
-                                    <textarea readOnly className="form-control" defaultValue="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de 
+                                    <textarea readOnly className="form-control" defaultValue="Lorem Ipsum é simplesmente 
+                                    uma simulação de texto da indústria tipográfica e de 
                                     impressos, e vem sendo utilizado desde o século XVI, quando um impressor 
                                     desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro
                                     de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como 
@@ -48,14 +51,15 @@ const Rodape = props =>{
                                     </textarea>
                                 </div>
 
-                                <div className="form-check col-lg-12">
-                                    <input type="checkbox" className="form-check-input" id="concordar" />
-                                    <label className="form-check-label" htmlFor="exampleCheck1">Eu li e concordo com os termos.</label>
+                                <div class="form-group col-lg-12">
+                                    <input type="checkbox" name="check" value="yes" /> 
+                                    <label htmlFor="check">Eu li e concordo com os termos.</label>
                                 </div>
-                                <div className='modal-footer'>
-                                <input type='Submit' className='btn btn-primary' defaultValue="ENVIAR" id='enviar' />
-                                </div>
-                            </form>
+                                <p>
+                                    <input type="submit" value="Send" class="btn btn-primary btn-block" />
+                                </p>
+                            </form>	
+                        <pre id="output"></pre>
                         </div>
 
                         
@@ -68,6 +72,11 @@ const Rodape = props =>{
                 <img src='img/marca_inema_sem_fundo.png' alt="Logo Inema" />
                 </a>
             </footer>
+            
+            
+
+
+
         </div>
     )
 }

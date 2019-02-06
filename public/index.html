@@ -27,23 +27,40 @@
     
 
     <script>
-      
-          $("#submitBtn").click(function(){
-            var datastring = $("#upFoto").serializeArray();
-            
-              $.ajax({
-                type: "POST",
-                url: "Sua url.php",
-                data: datastring,
-                dataType: "json",
-                success: function(data) {
-                  console.log("aqui");
-              },
-              error: function() {
-                  alert('error handing here');
+        // Write JavaScript here     window.load = carregarEventos;
+        (function() {
+            function toJSONString( form ) {
+              var obj = {};
+              var elements = form.querySelectorAll( "input, select, textarea" );
+              for( var i = 0; i < elements.length; ++i ) {
+                var element = elements[i];
+                var name = element.name;
+                var value = element.value;
+
+                if( name ) {
+                  obj[ name ] = value;
+                }
               }
+
+              return JSON.stringify( obj );
+            }
+
+            document.addEventListener( "DOMContentLoaded", function() {
+              var form = document.getElementById( "upFotos" );
+              var output = document.getElementById( "output" );
+              form.addEventListener( "submit", function( e ) {
+                e.preventDefault();
+                var json = toJSONString( this );
+                output.innerHTML = json;
+
+              }, false);
+
             });
-          });
+
+          })();
+        
+        
+                  
       </script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
