@@ -4,7 +4,7 @@ const Inicial = props =>{
     return(
     <div>
         <div className='jumbotron text-center'>
-          <h1><img className="img-responsive" src='./img/logo_varal.png' /></h1> 
+          <h1><img className="img-responsive" alt="logo varal das águas" src='./img/logo_varal.png' /></h1> 
         </div>
 
         <div id='Concurso' className='container bg-white'>
