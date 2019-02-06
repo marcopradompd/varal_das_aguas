@@ -17,19 +17,19 @@ const Rodape = props =>{
                         </div>
                         <div className='modal-body row'>
                             <form id="upFotos" action="#" method="post">
-                                <div class="form-group col-lg-6">
+                                <div className="form-group col-lg-6">
                                     <label htmlFor="name">Name</label>
                                     <input className="form-control" type="text" name="name" id="name" />
                                 </div>
-                                <div class="form-group col-lg-6">
-                                    <label for="nameFoto">NameFoto</label>
+                                <div className="form-group col-lg-6">
+                                    <label htmlFor="nameFoto">NameFoto</label>
                                     <input className="form-control" type="text" name="nameFoto" id="nameFoto" />
                                 </div>
-                                <div class="form-group col-lg-6">
+                                <div className="form-group col-lg-6">
                                     <label htmlFor="LocalFoto">LocalFoto</label>
                                     <input className="form-control" type="text" name="LocalFoto" id="localFoto" />
                                 </div>
-                                <div class="form-group col-lg-6">
+                                <div className="form-group col-lg-6">
                                     <label htmlFor="dataFoto">LocalFoto</label>
                                     <input className="form-control" type="date" name="dataFoto" id="dataFoto" />
                                 </div>
@@ -51,13 +51,13 @@ const Rodape = props =>{
                                     </textarea>
                                 </div>
 
-                                <div class="form-group col-lg-12">
+                                <div className="form-group col-lg-12">
                                     <input type="checkbox" name="check" value="yes" /> 
                                     <label htmlFor="check">Eu li e concordo com os termos.</label>
                                 </div>
-                                <p>
-                                    <input type="submit" value="Send" class="btn btn-primary btn-block" />
-                                </p>
+                                <div className="form-group col-lg-12 text-right">
+                                    <input type="submit" value="ENVIAR" className="btn btn-primary" />
+                                </div>
                             </form>	
                         <pre id="output"></pre>
                         </div>

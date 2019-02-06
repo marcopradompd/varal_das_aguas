@@ -23,6 +23,11 @@ html {
   text-transform: uppercase;
   color: #1b546f; }
 
+pre {
+    padding: 17.5px !important;
+    margin: 22px 15px 10px !important;
+}
+
 h2 {
   font-size: 24px;
   font-weight: 600;
