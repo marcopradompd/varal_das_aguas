@@ -20,7 +20,7 @@ const Sobre = props => {
                 em inspeção em campo a serviço do Inema.</p><br/>
 
                 <h5>Premiação final dos concursos</h5>
-                <p>OAs 05(cinco) primeiras fotografias que for mais votadas nas redes sociais (Facebook e Instagram) 
+                <p>As 05(cinco) primeiras fotografias que for mais votadas nas redes sociais (Facebook e Instagram) 
                 do Inema, receberá como prêmio.</p>
             
             </div>
