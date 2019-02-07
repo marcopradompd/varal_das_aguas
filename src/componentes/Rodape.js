@@ -17,19 +17,19 @@ const Rodape = props =>{
                         </div>
                         <div className='modal-body row'>
                             <form id="upFotos" action="#" method="post">
-                                <div className="form-group col-lg-6">
+                                <div className="form-group padd col-lg-6">
                                     <label htmlFor="name">Name</label>
-                                    <input className="form-control" type="text" name="name" id="name" />
+                                    <input placeholder="Insira seu nome" className="form-control" type="text" name="name" id="name" />
                                 </div>
-                                <div className="form-group col-lg-6">
+                                <div className="form-group padd col-lg-6">
                                     <label htmlFor="nameFoto">NameFoto</label>
-                                    <input className="form-control" type="text" name="nameFoto" id="nameFoto" />
+                                    <input placeholder="Insira o nome da foto" className="form-control" type="text" name="nameFoto" id="nameFoto" />
                                 </div>
-                                <div className="form-group col-lg-6">
+                                <div className="form-group padd col-lg-6">
                                     <label htmlFor="LocalFoto">LocalFoto</label>
-                                    <input className="form-control" type="text" name="LocalFoto" id="localFoto" />
+                                    <input placeholder="Insira o local da foto" className="form-control" type="text" name="LocalFoto" id="localFoto" />
                                 </div>
-                                <div className="form-group col-lg-6">
+                                <div className="form-group padd col-lg-6">
                                     <label htmlFor="dataFoto">LocalFoto</label>
                                     <input className="form-control" type="date" name="dataFoto" id="dataFoto" />
                                 </div>
@@ -41,8 +41,20 @@ const Rodape = props =>{
 
                                 <div className="form-group col-lg-12">
                                     <label htmlFor="exampleFormControlTextarea1">Termos</label>
-                                    <textarea readOnly className="form-control" defaultValue="Lorem Ipsum é simplesmente 
+                                    <textarea readOnly className="form-control termo" defaultValue="Lorem Ipsum é simplesmente 
                                     uma simulação de texto da indústria tipográfica e de 
+                                    impressos, e vem sendo utilizado desde o século XVI, quando um impressor 
+                                    desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro
+                                    de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como 
+                                    também ao salto para a editoração eletrônica, permanecendo essencialmente
+                                    inalterado.
+                                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de 
+                                    impressos, e vem sendo utilizado desde o século XVI, quando um impressor 
+                                    desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro
+                                    de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como 
+                                    também ao salto para a editoração eletrônica, permanecendo essencialmente
+                                    inalterado.
+                                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de 
                                     impressos, e vem sendo utilizado desde o século XVI, quando um impressor 
                                     desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro
                                     de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como 
@@ -55,7 +67,8 @@ const Rodape = props =>{
                                     <input type="checkbox" name="check" value="yes" /> 
                                     <label htmlFor="check">Eu li e concordo com os termos.</label>
                                 </div>
-                                <div className="form-group col-lg-12 text-right">
+                                
+                                <div className="form-group btnline col-lg-12 text-right">
                                     <input type="submit" value="ENVIAR" className="btn btn-primary" />
                                 </div>
                             </form>	

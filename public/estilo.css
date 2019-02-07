@@ -18,6 +18,18 @@ hr{
   margin: 0;
 }
 
+.btnline{border-top:solid 1px #e5e5e5; padding-top:20px;}
+
+.padd{padding:0 22px;}
+
+.termo{
+  min-height: 200px;
+  background: #fff!important;
+}
+
+input[type=checkbox], input[type=radio] {
+margin: 4px 6px 0 0!important;}
+
 .container{padding: 0px 95px 0px 95px;}
 
   
@@ -53,8 +65,10 @@ h2 {
 
 .jumbotron {
   background: url("./img/nature-water.jpg") center no-repeat;
+  background-position: 0 -221px;
   color: #797878;
-  padding: 112px 25px 385px 25px;
+  padding: 88px 25px 288px 25px;
+  min-height: 756px;
   margin: 0;
   font-family: Montserrat, sans-serif; }
 
@@ -156,30 +170,31 @@ footer {
 .bg-grey {
   background-color: #f6f6f6; }
 
-  .navbar {
-    margin-bottom: 0;
-    background-color: #1b546f;
-    z-index: 200;
-    border: 0;
-    font-size: 14px !important;
-    text-transform: uppercase;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Lato, sans-serif; }
-  
-    .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: "latorlight", sans-serif!important;}
-  
-    .navbar li a, .navbar .navbar-brand {
-      color: #fff !important; }
-  
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #1b546f !important;
-    background-color: #fff !important; }
-  
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
+.navbar .container{padding: 0 160px;}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #1b546f;
+  z-index: 200;
+  border: 0;
+  font-size: 14px !important;
+  text-transform: uppercase;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0; }
+
+  .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: "latorlight", sans-serif!important;}
+
+  .navbar li a, .navbar .navbar-brand {
     color: #fff !important; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #1b546f !important;
+  background-color: #fff !important; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important; }
 
 @media screen and (max-width: 992px) {
 
@@ -192,6 +207,10 @@ footer {
       margin-top: 40px;
     }
 
+    .jumbotron {
+      min-height:auto;}
+
+
     .containerOcurso {
       display:block;
       margin:auto;
@@ -202,6 +221,8 @@ footer {
       .container {
         padding: 0px 31px 0px 31px;
     }
+
+    .navbar .container{padding: 0 10px;}
 
   }
 
@@ -214,6 +235,9 @@ footer {
   .boxInfo {
     position: none;
     margin: 0; }
+
+    .jumbotron {
+      min-height:auto;}
 
   .col-sm-4 {
     text-align: center;
@@ -236,8 +260,10 @@ footer {
     padding-bottom: 45px;}
 
     .container {
-      padding: 0px 31px 0px 31px;
+      padding: 0px 31px;
   }
+
+  .navbar .container{padding: 0 10px;}
 
   }
 
@@ -252,7 +278,8 @@ footer {
 
   .jumbotron {
     background-position: center center;
-    padding: 50px 25px 150px 25px; }
+    padding: 50px 25px 150px 25px; 
+    min-height:auto;}
 
     .containerBoxInfo{
       display:block;
@@ -267,8 +294,10 @@ footer {
       padding-bottom: 45px;}
 
       .container {
-        padding: 0px 31px 0px 31px;
+        padding: 0px 31px;
     }
+
+    .navbar .container{padding: 0 10px;}
   
 
     }
