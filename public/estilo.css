@@ -6,58 +6,55 @@ textarea .form-control {
 
 body {
   background: #faefde;
-  font-family: 'Lato Light', sans-serif;
-  font-size:14px;
+  font-family: "Lato Light", sans-serif;
+  font-size: 14px;
   line-height: 20px;
   color: #666666; }
 
 html {
   scroll-behavior: smooth; }
 
-hr{
-  margin: 0;
-}
+hr {
+  margin: 0; }
 
 .modal-title {
   float: left;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-}
+  font-family: "Lato", sans-serif;
+  font-weight: bold; }
 
-.btnline{border-top:solid 1px #e5e5e5; padding-top:20px;}
+.btnline {
+  border-top: solid 1px #e5e5e5;
+  padding-top: 20px; }
 
-.padd{padding:0 22px;}
+.padd {
+  padding: 0 22px; }
 
-.termo{
+.termo {
   min-height: 200px;
-  background: #fff!important;
-}
+  background: #fff !important; }
 
 input[type=checkbox], input[type=radio] {
-margin: 4px 6px 0 0!important;}
+  margin: 4px 6px 0 0 !important; }
 
-.container{padding: 0px 95px 0px 95px;}
+.container {
+  padding: 0px 95px 0px 95px; }
+  .container h5:first-child {
+    font-size: 14px;
+    font-family: "lato", sans-serif !important;
+    text-transform: uppercase;
+    color: #1b546f;
+    font-weight: bold; }
 
-  
-.container h5:first-child  {
-  font-size: 14px;
-  font-family: "lato", sans-serif!important;
-  text-transform: uppercase;
-  color: #1b546f;
-  font-weight: bold;
-}
-
-#output{ background: none;}
+#output {
+  background: none; }
 
 pre {
-    padding: 17.5px !important;
-    margin: 22px 15px 10px !important;
-}
+  padding: 17.5px !important;
+  margin: 22px 15px 10px !important; }
 
 h2 {
   font-weight: 600;
   margin-bottom: 30px; }
-
 
 .jumbotron {
   background: url("./img/nature-water.jpg") center no-repeat;
@@ -67,22 +64,17 @@ h2 {
   min-height: 756px;
   margin: 0;
   font-family: Montserrat, sans-serif; }
+  .jumbotron h1 {
+    font-family: "meriendabold"; }
+    .jumbotron h1 img {
+      margin: auto; }
 
-.jumbotron h1 {
-  font-family: "meriendabold"; }
-
-.jumbotron h1 img {
-  margin: auto; }
-
-.containerOcurso{
+.containerOcurso {
   display: inline-block;
   max-width: 500px;
-  padding: 0 96px;
-}
-
-.containerOcurso h5{
-  text-transform: uppercase;
-}
+  padding: 0 96px; }
+  .containerOcurso h5 {
+    text-transform: uppercase; }
 
 .containerBoxInfo {
   display: inline-block;
@@ -90,24 +82,22 @@ h2 {
   min-height: auto; }
 
 .boxInfo {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background: #1b546f;
   margin-top: -39px;
   height: 235px;
-  padding: 29px 36px;}
-
-.boxInfo h4 {
-  color: #2e8ebc;
-  font-size: 12px;
-  margin-bottom: 5px; }
-
-.boxInfo p {
-  line-height: 17px;
-  font-size: 12px;
-  color: #fffefe; }
+  padding: 29px 36px; }
+  .boxInfo h4 {
+    color: #2e8ebc;
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .boxInfo p {
+    line-height: 17px;
+    font-size: 12px;
+    color: #fffefe; }
 
 .btnInscricao {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background: #1b546f;
   border: 0px;
   color: #fff;
@@ -117,25 +107,22 @@ h2 {
   padding: 15px 25px;
   border-radius: 0px; }
 
-#Concurso{
+#Concurso {
   margin-top: -92px;
-  padding-top: 35px;
-}
+  padding-top: 35px; }
+  #Concurso row {
+    margin-top: -92px; }
 
-#Concurso row{
-  margin-top: -92px;}
+#Sobre .limit {
+  padding: 60px 95px 20px 95px; }
 
-#Sobre .limit, #Regras .limit{
-  padding: 60px 95px 20px 95px;}
-
-#Regras .limit{
-  padding-bottom:100px!important;
-}
-
+#Regras .limit {
+  padding: 60px 95px 20px 95px;
+  padding-bottom: 100px !important; }
 #Regras ul {
-padding: 15px; }
-#Regras ul li {
-padding: 5px; }
+  padding: 15px; }
+  #Regras ul li {
+    padding: 5px; }
 
 footer {
   border-top: solid 10px #1b546f;
@@ -150,23 +137,17 @@ footer {
 
 .limit {
   max-width: 820px;
-  margin: auto;
-}
-
-.limit h5:first-child {margin-bottom: 44px;}
-
-.limit hr{
- margin: 30px 95px 0 95px;
-}
-
+  margin: auto; }
+  .limit h5:first-child {
+    margin-bottom: 44px; }
+  .limit hr {
+    margin: 30px 95px 0 95px; }
 
 .bg-white {
   background-color: #fff; }
 
 .bg-grey {
   background-color: #f6f6f6; }
-
-.navbar .container{padding: 0 160px;}
 
 .navbar {
   margin-bottom: 0;
@@ -178,11 +159,15 @@ footer {
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0; }
+  .navbar .container {
+    padding: 0 160px; }
 
-  .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: 'Lato Light', sans-serif;}
+.navbar-default .navbar-nav > li > a {
+  color: #2e8ebc !important;
+  font-family: "Lato Light", sans-serif; }
 
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important; }
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important; }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #1b546f !important;
@@ -193,47 +178,39 @@ footer {
   color: #fff !important; }
 
 @media screen and (max-width: 992px) {
-
   #Concurso {
-    margin-top: -92px; } 
+    margin-top: -92px; }
 
-    .containerBoxInfo{
-      display:Block;
-      margin: auto;
-      margin-top: 40px;
-    }
+  .containerBoxInfo {
+    display: Block;
+    margin: auto;
+    margin-top: 40px; }
 
-    .jumbotron {
-      min-height:auto;}
+  .jumbotron {
+    min-height: auto; }
 
+  .containerOcurso {
+    display: block;
+    margin: auto;
+    padding: 0 31px;
+    padding-top: 45px;
+    padding-bottom: 45px; }
 
-    .containerOcurso {
-      display:block;
-      margin:auto;
-      padding: 0 31px;
-      padding-top:45px;
-      padding-bottom: 45px;}
+  .container {
+    padding: 0px 31px 0px 31px; }
 
-      .container {
-        padding: 0px 31px 0px 31px;
-    }
-
-    .navbar .container{padding: 0 10px;}
-
-  }
-
-  
-
+  .navbar .container {
+    padding: 0 10px; } }
 @media screen and (max-width: 768px) {
   #Concurso {
-    margin-top: -92px;}
+    margin-top: -92px; }
 
   .boxInfo {
     position: none;
     margin: 0; }
 
-    .jumbotron {
-      min-height:auto;}
+  .jumbotron {
+    min-height: auto; }
 
   .col-sm-4 {
     text-align: center;
@@ -241,32 +218,27 @@ footer {
 
   .btn-lg {
     width: 100%;
-    margin-bottom: 35px; } 
+    margin-bottom: 35px; }
 
-  .containerBoxInfo{
-    display:Block;
-    margin: auto;
-  }
+  .containerBoxInfo {
+    display: Block;
+    margin: auto; }
 
   .containerOcurso {
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     padding: 0 31px;
-    padding-top:45px;
-    padding-bottom: 45px;}
+    padding-top: 45px;
+    padding-bottom: 45px; }
 
-    .container {
-      padding: 0px 31px;
-  }
+  .container {
+    padding: 0px 31px; }
 
-  .navbar .container{padding: 0 10px;}
-
-  }
-
+  .navbar .container {
+    padding: 0 10px; } }
 @media screen and (max-width: 480px) {
-
-   #Sobre .limit, #Regras .limit{
-    padding: 60px 30px 20px 30px;}
+  #Sobre .limit, #Regras .limit {
+    padding: 60px 30px 20px 30px; }
 
   .boxInfo {
     position: none;
@@ -274,28 +246,24 @@ footer {
 
   .jumbotron {
     background-position: center center;
-    padding: 50px 25px 150px 25px; 
-    min-height:auto;}
+    padding: 50px 25px 150px 25px;
+    min-height: auto; }
 
-    .containerBoxInfo{
-      display:block;
-      margin: auto;
-    }
+  .containerBoxInfo {
+    display: block;
+    margin: auto; }
 
-    .containerOcurso {
-      display:block;
-      margin:auto;
-      padding: 0 31px;
-      padding-top:45px;
-      padding-bottom: 45px;}
+  .containerOcurso {
+    display: block;
+    margin: auto;
+    padding: 0 31px;
+    padding-top: 45px;
+    padding-bottom: 45px; }
 
-      .container {
-        padding: 0px 31px;
-    }
+  .container {
+    padding: 0px 31px; }
 
-    .navbar .container{padding: 0 10px;}
-  
+  .navbar .container {
+    padding: 0 10px; } }
 
-    }
 
-   
