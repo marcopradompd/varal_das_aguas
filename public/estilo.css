@@ -6,10 +6,10 @@ textarea .form-control {
 
 body {
   background: #faefde;
-  font-family: 'Lato:300', sans-serif!important;
+  font-family: "latolight", sans-serif!important;
   font-size:14px;
   line-height: 20px;
-  color: #303030; }
+  color: #666666; }
 
 html {
   scroll-behavior: smooth; }
@@ -23,7 +23,7 @@ hr{
   
 .container h5:first-child  {
   font-size: 14px;
-  font-family: "latoregular";
+  font-family: "latoregular", sans-serif!important;
   text-transform: uppercase;
   color: #1b546f;
   font-weight: bold;
@@ -41,13 +41,13 @@ h2 {
 
 @font-face {
   font-family: "latoregular";
-  src: url("./fontes/merienda/lato-regular-webfont.woff2") format("woff2"), url("./fontes/merienda/lato-regular-webfont.woff") format("woff");
+  src: url("./fontes/merienda/lato-regular.woff2") format("woff2"), url("./fontes/merienda/lato-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "meriendabold";
-  src: url("./fontes/merienda/merienda-bold-webfont.woff2") format("woff2"), url("./fontes/merienda/merienda-bold-webfont.woff") format("woff");
+  font-family: "latolight";
+  src: url("./fontes/merienda/lato-light.woff.woff2") format("woff2"), url("./fontes/merienda/lato-light.woff.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -80,6 +80,7 @@ h2 {
   min-height: auto; }
 
 .boxInfo {
+  font-family: "latoregular", sans-serif!important;
   background: #1b546f;
   margin-top: -39px;
   height: 235px;
@@ -96,6 +97,7 @@ h2 {
   color: #fffefe; }
 
 .btnInscricao {
+  font-family: "latoregular", sans-serif!important;
   background: #1b546f;
   border: 0px;
   color: #fff;
@@ -141,7 +143,7 @@ footer {
   margin: auto;
 }
 
-.limit h5:first-child {margin-bottom: 44px; font-family: 'Lato', sans-serif;}
+.limit h5:first-child {margin-bottom: 44px;}
 
 .limit hr{
  margin: 30px 95px 0 95px;
@@ -166,7 +168,7 @@ footer {
     border-radius: 0;
     font-family: Lato, sans-serif; }
   
-    .navbar-default .navbar-nav>li>a{color:#2e8ebc!important;}
+    .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: "latorlight", sans-serif!important;}
   
     .navbar li a, .navbar .navbar-brand {
       color: #fff !important; }
