@@ -2,23 +2,25 @@ import React from 'react'
 
 const Regras = props =>{
     return(
-    <div id="Regras" className='container bg-white'>
+    <div id="Regras" className='container'>
         <div className='row'>
-            <div className='col-sm-12'>
-            <h2 className="text-center">Regras</h2>
-            <h4>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+            <div className='limit bg-white'>
+            <h5 className="text-center">Regras</h5>
+            <p>Todas as fotos que retratem da temática águas (tais como situação de secas ou excedentes hídricos, 
+                as belezas e os desafios de se trabalhar com os recursos hídricos etc.) serão bem vindas.</p>
                 <ul>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit;</li>
-                    <li>Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>As fotos devem ser originais e sem alterações.</li>
+                    <li>As fotos devem expor os ambientes visitados em inspeções técnicas realizadas durante inspeções pelo INEMA.</li>
+                    <li>Fotografias que incluam pessoas serão desclassificadas.</li>
+                    <li>As fotos devem ser enviadas com um formulário de inscrição preenchido.</li>
+                    <li>As fotografias do concurso se tornarão públicas.</li>
+                    <li>O fotógrafo da foto que receber mais votos ganhará um prêmio simbólico.</li>
+                    <li>Cada pessoa só poderá cadastrar uma única foto.</li>
+                    <li>A votação será por meio das redes sociais do INEMA.</li>
+                    <li>As vagas serão limitadas apenas 50.</li>
                 </ul>
 
-                <p>Our mission lorem ipsum dolor sit amet,s</p>
+                <p>A foto vencedora irá ganhar um kit de brinde (Agenda, caneta, livro).</p>
             </div>
         </div>
     </div>
