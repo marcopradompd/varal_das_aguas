@@ -6,7 +6,7 @@ textarea .form-control {
 
 body {
   background: #faefde;
-  font-family: "latolight", sans-serif!important;
+  font-family: 'Lato Light', sans-serif;
   font-size:14px;
   line-height: 20px;
   color: #666666; }
@@ -16,6 +16,12 @@ html {
 
 hr{
   margin: 0;
+}
+
+.modal-title {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 .btnline{border-top:solid 1px #e5e5e5; padding-top:20px;}
@@ -35,11 +41,13 @@ margin: 4px 6px 0 0!important;}
   
 .container h5:first-child  {
   font-size: 14px;
-  font-family: "latoregular", sans-serif!important;
+  font-family: "lato", sans-serif!important;
   text-transform: uppercase;
   color: #1b546f;
   font-weight: bold;
 }
+
+#output{ background: none;}
 
 pre {
     padding: 17.5px !important;
@@ -50,18 +58,6 @@ h2 {
   font-weight: 600;
   margin-bottom: 30px; }
 
-
-@font-face {
-  font-family: "latoregular";
-  src: url("./fontes/merienda/lato-regular.woff2") format("woff2"), url("./fontes/merienda/lato-regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "latolight";
-  src: url("./fontes/merienda/lato-light.woff.woff2") format("woff2"), url("./fontes/merienda/lato-light.woff.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
 
 .jumbotron {
   background: url("./img/nature-water.jpg") center no-repeat;
@@ -94,7 +90,7 @@ h2 {
   min-height: auto; }
 
 .boxInfo {
-  font-family: "latoregular", sans-serif!important;
+  font-family: 'Lato', sans-serif;
   background: #1b546f;
   margin-top: -39px;
   height: 235px;
@@ -111,7 +107,7 @@ h2 {
   color: #fffefe; }
 
 .btnInscricao {
-  font-family: "latoregular", sans-serif!important;
+  font-family: 'Lato', sans-serif;
   background: #1b546f;
   border: 0px;
   color: #fff;
@@ -183,7 +179,7 @@ footer {
   letter-spacing: 4px;
   border-radius: 0; }
 
-  .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: "latorlight", sans-serif!important;}
+  .navbar-default .navbar-nav>li>a{color:#2e8ebc!important; font-family: 'Lato Light', sans-serif;}
 
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important; }
